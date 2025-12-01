@@ -1,60 +1,78 @@
 #!/bin/bash
 
-echo "=== File Operations ===\n"
+echo ""
+echo "=== File Operations ==="
+echo ""
 
-echo "=== /tmp/test_script.sh ===\n"
+echo ""
+echo "=== /tmp/test_script.sh ==="
 cd /tmp
 cat test_script.sh
 
-echo "=== /tmp/.bashrc_test ===\n"
+echo ""
+echo "=== /tmp/.bashrc_test ==="
 cd /tmp
 cat .bashrc_test
 
-echo "=== /tmp/test.service ===\n"
+echo ""
+echo "=== /tmp/test.service ==="
 cd /tmp
 cat test.service
 
-echo "=== /tmp/crontab_test ===\n"
+echo ""
+echo "=== /tmp/crontab_test ==="
 cd /tmp
 cat crontab_test
 
-echo "=== /tmp/temp_data.dat ===\n"
+echo ""
+echo "=== /tmp/temp_data.dat ==="
 cd /tmp
 cat temp_data.dat
 
-echo "=== /var/tmp/cache.dat ===\n"
+echo ""
+echo "=== /var/tmp/cache.dat ==="
 cd /var/tmp
 cat cache.dat
 
-echo "=== /tmp/test_file.txt ===\n"
+echo ""
+echo "=== /tmp/test_file.txt ==="
 cd /tmp
 cat test_file.txt
 
-echo "=== /tmp/test_renamed.txt ===\n"
+echo ""
+echo "=== /tmp/test_renamed.txt ==="
 cd /tmp
 cat test_renamed.txt
 
-echo "=== /tmp/test_dir ===\n"
+echo ""
+echo "=== /tmp/test_dir ==="
 cd /tmp/test_dir
 ls -la
 
-echo "=== File Modificationsn ===\n"
+echo ""
+echo "=== File Modificationsn ==="
 
-echo "=== /tmp/test_script.sh ===\n"
+echo ""
+echo "=== /tmp/test_script.sh ==="
 cd /tmp
 cat test_script.sh
 
-echo "=== /tmp/test_file.txt ===\n"
+echo ""
+echo "=== /tmp/test_file.txt ==="
 cd /tmp
 cat test_file.txt
 
-echo "=== Files Read (Not Created/Modified) ===\n"
+echo ""
+echo "=== Files Read (Not Created/Modified) ==="
+echo ""
 
-echo "=== /etc/passwd ===\n"
+echo ""
+echo "=== /etc/passwd ==="
 cd /etc
 cat passwd
 
-echo "=== /etc/shadow ===\n"
+echo ""
+echo "=== /etc/shadow ==="
 cd /etc
 cat shadow
 
