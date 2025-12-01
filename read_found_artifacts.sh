@@ -2,7 +2,6 @@
 
 echo ""
 echo "=== File Operations ==="
-echo ""
 
 echo ""
 echo "=== /tmp/test_script.sh ==="
@@ -50,7 +49,7 @@ cd /tmp/test_dir
 ls -la
 
 echo ""
-echo "=== File Modificationsn ==="
+echo "=== File Modifications ==="
 
 echo ""
 echo "=== /tmp/test_script.sh ==="
@@ -64,7 +63,6 @@ cat test_file.txt
 
 echo ""
 echo "=== Files Read (Not Created/Modified) ==="
-echo ""
 
 echo ""
 echo "=== /etc/passwd ==="
@@ -76,6 +74,7 @@ echo "=== /etc/shadow ==="
 cd /etc
 cat shadow
 
-echo "=== Home Directory ===\n"
+echo ""
+echo "=== Home Directory ==="
 cd ~
 ls -la
