@@ -42,7 +42,6 @@ cat test_renamed.txt
 echo ""
 echo "=== /tmp/test_dir ==="
 cd /tmp/test_dir
-ls -la
 
 echo ""
 echo "=== File Modifications ==="
@@ -50,12 +49,12 @@ echo "=== File Modifications ==="
 echo ""
 echo "=== /tmp/test_script.sh ==="
 cd /tmp
-cat test_script.sh
+ls -l test_script.sh
 
 echo ""
 echo "=== /tmp/test_file.txt ==="
 cd /tmp
-cat test_file.txt
+ls -l test_file.txt
 
 echo ""
 echo "=== Files Read (Not Created/Modified) ==="
