@@ -10,22 +10,18 @@ cat test_script.sh
 
 echo ""
 echo "=== /tmp/.bashrc_test ==="
-cd /tmp
 cat .bashrc_test
 
 echo ""
 echo "=== /tmp/test.service ==="
-cd /tmp
 cat test.service
 
 echo ""
 echo "=== /tmp/crontab_test ==="
-cd /tmp
 cat crontab_test
 
 echo ""
 echo "=== /tmp/temp_data.dat ==="
-cd /tmp
 cat temp_data.dat
 
 echo ""
